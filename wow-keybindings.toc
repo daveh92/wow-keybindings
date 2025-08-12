@@ -1,7 +1,7 @@
 ## Interface: 11200
-## Title: My Keybinds
+## Title: Meine-Tastenbelegung
 ## Notes: Setzt meine Standard-Tastenbelegung automatisch
 ## Author: Kloppernikus
-## Version: 1.0.1
+## Version: 1.0.2
 
 wow-keybindings.lua
