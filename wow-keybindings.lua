@@ -1,0 +1,46 @@
+local f = CreateFrame("Frame")
+f:RegisterEvent("PLAYER_LOGIN")
+f:SetScript("OnEvent", function()
+    print("|cff00ff00[MyKeybinds]|r Action-Bar-Tasten werden gesetzt...")
+
+    -- Action Bar 1
+    SetBinding("Q", "ACTIONBUTTON1")
+    SetBinding("E", "ACTIONBUTTON2")
+    SetBinding("R", "ACTIONBUTTON3")
+    SetBinding("T", "ACTIONBUTTON4")
+    SetBinding("F", "ACTIONBUTTON5")
+    SetBinding("G", "ACTIONBUTTON6")  
+    SetBinding("Y", "ACTIONBUTTON7")
+    SetBinding("X", "ACTIONBUTTON8")
+    SetBinding("C", "ACTIONBUTTON9")
+    SetBinding("V", "ACTIONBUTTON10")
+    SetBinding("BUTTON4", "ACTIONBUTTON11")
+    SetBinding("BUTTON5", "ACTIONBUTTON12")
+
+    -- BottomLeftActionBar
+    SetBinding("1", "MULTIACTIONBAR1BUTTON1")
+    SetBinding("2", "MULTIACTIONBAR1BUTTON2")
+    SetBinding("3", "MULTIACTIONBAR1BUTTON3")
+    SetBinding("4", "MULTIACTIONBAR1BUTTON4")
+    SetBinding("5", "MULTIACTIONBAR1BUTTON5")
+    SetBinding("6", "MULTIACTIONBAR1BUTTON6")
+    SetBinding("SHIFT-1", "MULTIACTIONBAR1BUTTON7")
+    SetBinding("SHIFT-2", "MULTIACTIONBAR1BUTTON8")
+    SetBinding("SHIFT-3", "MULTIACTIONBAR1BUTTON9")
+    SetBinding("SHIFT-4", "MULTIACTIONBAR1BUTTON10")
+    SetBinding("SHIFT-5", "MULTIACTIONBAR1BUTTON11")
+    SetBinding("SHIFT-6", "MULTIACTIONBAR1BUTTON12")
+
+    -- Action Bar 3 (rechts unten)
+    SetBinding("CTRL-Q", "MULTIACTIONBAR2BUTTON1")
+    SetBinding("CTRL-E", "MULTIACTIONBAR2BUTTON2")
+
+    -- Action Bar 4 (links unten)
+    SetBinding("ALT-Q", "MULTIACTIONBAR4BUTTON1")
+    SetBinding("ALT-E", "MULTIACTIONBAR4BUTTON2")
+
+    -- Speichern (1 = Accountweit, 2 = Charakter-spezifisch)
+    SaveBindings(1)
+
+    print("|cff00ff00[MyKeybinds]|r Fertig!")
+end)

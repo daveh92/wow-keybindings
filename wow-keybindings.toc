@@ -1,0 +1,7 @@
+## Interface: 11404
+## Title: My Keybinds
+## Notes: Setzt meine Standard-Tastenbelegung automatisch
+## Author: Kloppernikus
+## Version: 1.0
+
+MyKeybinds.lua
