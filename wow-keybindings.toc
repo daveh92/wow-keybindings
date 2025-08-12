@@ -4,4 +4,4 @@
 ## Author: Kloppernikus
 ## Version: 1.0.1
 
-MyKeybinds.lua
+wow-keybindings.lua
